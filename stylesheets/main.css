@@ -1,0 +1,39 @@
+
+
+.main {
+    /* display: flex; */
+    /* margin: 3rem auto; */
+    /* flex-wrap: wrap; */
+    /* max-width: 750px; */
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 10px 100px;
+}
+
+.main__article {
+    display: flex;
+    flex-direction: column;
+    /* width:fit-content */
+}
+
+.main__article--image {
+    width: 500px;
+    height: 300px;
+}
+
+.main__article--price {
+    display: flex;
+    /* justify-content: flex-end; */
+}
+
+.main__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

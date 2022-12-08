@@ -5,10 +5,10 @@
 @import './stylesheets/main.css';
 @import './stylesheets/footer.css';
 
-img {
-  width: 100px;
-  height: 100px;
-}
+/* img {
+  width: 500px;
+  height: 300px;
+} */
 
 .page {
   display: grid;
