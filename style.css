@@ -20,6 +20,10 @@
   /* padding-right: 100px; */
 }
 
+span {
+  display: block;
+}
+
 .page {
   display: grid;
   grid-template-rows: 0.5fr 0.5fr 3fr 1fr;

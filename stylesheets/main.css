@@ -15,6 +15,12 @@
     padding: 10px 100px;
 }
 
+.main__title {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.03ch;
+}
+
 .main__article {
     display: flex;
     flex-direction: column;
@@ -39,5 +45,16 @@
 .footer {
     text-align: right;
     max-width: 90vw;
+}
+
+@media screen and (max-width:700) {
+    .main__article {
+        justify-content: center;
+        width: 100px;        
+    }
+
+    .main__article--image {
+        width: fit-content;
+    }
 }
 
