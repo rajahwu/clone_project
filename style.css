@@ -5,4 +5,17 @@
 @import './stylesheets/main.css';
 @import './stylesheets/footer.css';
 
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.page {
+  display: grid;
+  grid-template-rows: 0.5fr 0.5fr 3fr 1fr;
+  /* padding: 10px; */
+  /* margin: 10px; */
+  height: fit-content;
+}
+
 

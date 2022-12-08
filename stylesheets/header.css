@@ -1,0 +1,24 @@
+.header {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  height: fit-content;
+  grid-template-areas: "logo search links";
+  border: 2px green;
+}
+
+.header__logo {
+  grid-area: logo;
+}
+
+.header__search {
+  grid-area: search;
+}
+
+.header__links {
+  grid-area: links;
+}
+
+.header__links-list {
+  display: flex;
+}
