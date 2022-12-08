@@ -27,13 +27,17 @@
 }
 
 .main__article--price {
-    display: flex;
-    /* justify-content: flex-end; */
+    text-align: right;
 }
 
 .main__button {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.footer {
+    text-align: right;
+    max-width: 90vw;
 }
 

@@ -5,17 +5,29 @@
 @import './stylesheets/main.css';
 @import './stylesheets/footer.css';
 
-/* img {
-  width: 500px;
-  height: 300px;
-} */
+:root {
+  --bg-color: #eeedf2;
+  --text-color: #6f7287;
+  --btn-border-color: #6f7287;
+  --header-text-color: #f05537;
+  --footer-bg-color: #1e0a3c;
+  --footer-text-color: #ffffff;
+
+}
+
+* {
+  max-width: 100vw;
+  /* padding-right: 100px; */
+}
 
 .page {
   display: grid;
   grid-template-rows: 0.5fr 0.5fr 3fr 1fr;
-  /* padding: 10px; */
-  /* margin: 10px; */
-  height: fit-content;
+  grid-template-columns: auto;
+  width: 100vw;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: "Neue Plak", sans-serif;
 }
 
 
