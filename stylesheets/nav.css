@@ -1,0 +1,19 @@
+.nav {
+   margin: auto;
+}
+
+.nav__title {
+    
+}
+
+.nav__links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.nav__link {
+    flex-basis: 100%;
+    flex-grow: 100%;
+    width: 24vw;
+}

@@ -9,14 +9,20 @@
 
 .header__logo {
   grid-area: logo;
+  display: flex;
+  justify-content: center;
 }
 
 .header__search {
   grid-area: search;
+  display: flex;
+  justify-content: center;
 }
 
 .header__links {
   grid-area: links;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .header__links-list {
