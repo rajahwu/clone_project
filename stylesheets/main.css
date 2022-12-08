@@ -42,6 +42,20 @@
     justify-content: center;
 }
 
+.main__button button {
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    border: 1px solid var(--btn-border-color);
+    box-shadow: 2px 2px var(--btn-border-color);
+}
+
+.main__button>button:hover {
+    color: var(--header-text-color);
+    border: 1px solid var(--header-text-color);
+    box-shadow: 5px 5px var(--header-text-color);
+}
+
 .footer {
     text-align: right;
     max-width: 90vw;
